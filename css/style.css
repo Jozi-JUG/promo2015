@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+
+
 body {
 	background: #222;
 	font-family: Georgia, serif;
@@ -50,7 +52,7 @@ h1,h2,h4,h5,h6 {
 		background: url('../images/dot.gif') left 45px repeat-x;
 	}
 		#dates {
-			width: 800px;
+			width: 90%;
 			height: 60px;
 			overflow: hidden;
 		}
@@ -72,7 +74,7 @@ h1,h2,h4,h5,h6 {
 				}
 		
 		#issues {
-			width: 800px;
+			width: 90%;
 			height: 350px;
 			overflow: hidden;
 		}	
@@ -114,8 +116,8 @@ h1,h2,h4,h5,h6 {
 					text-shadow: #000 1px 1px 2px;
 				}
 				#issues li p {
-					font-size: 14px;
-					margin-right: 70px;
+					font-size: 28px;
+					margin-right: 7px;
 					font-weight: normal;
 					line-height: 22px;
 					text-shadow: #000 1px 1px 2px;
