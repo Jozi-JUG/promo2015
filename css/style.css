@@ -42,8 +42,8 @@ h1,h2,h4,h5,h6 {
 }
 
 	#timeline {
-		width: 800px;
-		height: 350px;
+		width: 70%;
+		height: 80%;
 		overflow: hidden;
 		margin: 100px auto;
 		position: relative;
@@ -68,7 +68,7 @@ h1,h2,h4,h5,h6 {
 					padding-bottom: 10px;
 				}
 				#dates .selected {
-			        font-size: 38px;
+			        font-size: 28px;
 				}
 		
 		#issues {
