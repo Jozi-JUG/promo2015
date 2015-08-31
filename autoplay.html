@@ -1,99 +1,113 @@
 <!doctype html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="author" content="Made with ❤ by Jorge Epuñan - @csslab">
-	
-	<title>jQuery Timeline 0.9.54 - Dando vida al tiempo</title>
-	<link rel="stylesheet" href="css/style.css" media="screen" />
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="js/jquery.timelinr-0.9.54.js"></script>
-	<script> 
-		$(function(){
-			$().timelinr({
-				autoPlay: 'true',
-				autoPlayDirection: 'forward'
-			})
-		});
-	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Richard Kolb">
+
+    <title>Your Jozi-JUG</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.timelinr-0.9.54.js"></script>
+    <script>
+        $(function () {
+            $().timelinr({
+                autoPlay: 'true',
+                autoPlayPause: 5000,
+                arrowKeys: 'true'
+            })
+        });
+    </script>
 </head>
 
 <body>
-	
-	<div id="timeline">
-		<ul id="dates">
-			<li><a href="#1900">1900</a></li>
-			<li><a href="#1930">1930</a></li>
-			<li><a href="#1944">1944</a></li>
-			<li><a href="#1950">1950</a></li>
-			<li><a href="#1971">1971</a></li>
-			<li><a href="#1977">1977</a></li>
-			<li><a href="#1989">1989</a></li>
-			<li><a href="#1999">1999</a></li>
-			<li><a href="#2001">2001</a></li>
-			<li><a href="#2011">2011</a></li>
-		</ul>
-		<ul id="issues">
-			<li id="1900">
-				<img src="images/1.png" width="256" height="256" />
-				<h1>1900</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1930">
-				<img src="images/2.png" width="256" height="256" />
-				<h1>1930</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1944">
-				<img src="images/3.png" width="256" height="256" />
-				<h1>1944</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1950">
-				<img src="images/4.png" width="256" height="256" />
-				<h1>1950</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1971">
-				<img src="images/5.png" width="256" height="256" />
-				<h1>1971</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1977">
-				<img src="images/6.png" width="256" height="256" />
-				<h1>1977</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1989">
-				<img src="images/7.png" width="256" height="256" />
-				<h1>1989</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="1999">
-				<img src="images/8.png" width="256" height="256" />
-				<h1>1999</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="2001">
-				<img src="images/9.png" width="256" height="256" />
-				<h1>2001</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-			<li id="2011">
-				<img src="images/10.png" width="256" height="256" />
-				<h1>2011</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
-			</li>
-		</ul>
-		<div id="grad_left"></div>
-		<div id="grad_right"></div>
-		<a href="#" id="next">+</a>
-		<a href="#" id="prev">-</a>
-	</div>
 
-	<h1>CSSLab.cl - jQuery Timeline 0.9.54 - Horizontal <a href="http://www.csslab.cl/2011/08/18/jquery-timelinr/" title="Volver al artículo original">[Volver/Back]</a></h1>
-	<h2>&copy; 2013 CSSLab.cl</h2>
+    <div id="timeline">
+        <ul id="dates">
+            <li><a href="#NOW" class="selected">NOW</a></li>
+            <li><a href="#2011JUNE">2011-06</a></li>
+            <li><a href="#2011JULY">2011-07</a></li>
+            <li><a href="#2011October">2011-08</a></li>
+            <li><a href="#2012June">2012-06</a></li>
+            <li><a href="#2013January">2013-01</a></li>
+            <li><a href="#2014January">2014-01</a></li>
+            <li><a href="#NEXT">NEXT</a></li>
+            <li><a href="#J-SA">J-SA</a></li>
+        </ul>
+        <ul id="issues">
+            <li id="NOW" class="selected">
+                <img src="images/us.jpg" width="256" height="256" />
+                <h1>NOW</h1>
+                <p>Almost 1000 members on meetup.com</p>
+                <p>Junior and senior events every month</p>
+                <p>A cool developer vibe</p>
+            </li>
+            <li id="2011JUNE">
+                <img src="images/jclouds.jpg" width="256" height="256" />
+                <h1>Not our first meetup,but it had 8 RSVPs</h1>
+                <p>Topic : JClouds: Multi Cloud Library.</p>
+                <p>Speaker : Len Weincier.</p>
+                <p>Scrooge Diner, Brightwater Commons</p>
+            </li>
+            <li id="2011JULY">
+                <img src="images/java7.png" width="256" height="256" />
+                <h1>Yes, Java 7 came out ages ago</h1>
+                <p>First international speaker Alexis Moussine-Pouchkine</p>
+                <p>35 RSVPs @Internet Solutions</p>
+            </li>
+            <li id="2011October">
+                <img src="images/4.png" width="256" height="256" />
+                <h1>Introduction to Erlang</h1>
+                <p>First non Java talk.</p>
+                <p>25 RSVPs @Jumping Bean</p>
+            </li>
+            <li id="2012June">
+                <img src="images/600_132986402.jpeg" width="256" height="256" />
+                <h1>Why Functional Programming Matters</h1>
+                <p>One of the first photos.</p>
+                <p>26 RSVPs @Internet Solutions</p>
+
+            </li>
+            <li id="2013January">
+                <img src="images/tdd.jpg" width="256" height="256" />
+                <h1>First junior talk : Test Driven Development - Java Foundations</h1>
+                <p>42 RSVPs @Oracle</p>
+            </li>
+            <li id="2014January">
+                <img src="images/highres_328017792.jpeg" width="256" height="256" />
+                <h1>Split sessions for junior and seniors</h1>
+                
+                <p>32 + 44 RSVPs @ThoughtWorks</p>
+
+            </li>
+            <li id="NEXT">
+                <img src="images/us.jpg" width="256" height="256" />
+                <h1>NEXT</h1>
+                <p>Your Jozi-JUG!</p>
+                <p>Contribute as a speaker</p>
+                <p>Contribute as a writer at http://www.jozijug.co.za/</p>
+                <p>Just come and learn and mix with cool Java devs</p>
+            </li>
+            <li id="J-SA">
+                <img src="images/us.jpg" width="256" height="256" />
+                <h1>Jozi-JUG presenters at Java South Africa http://j-sa.co/</h1>
+                <p>Pavel Tcholakov<br>
+                Rory Preddy<br>
+                Rishal Hurbans<br>
+                Corneil Du Plessis<br>
+                Richard Kolb<br>
+                Nitsan Wakart (October)</p>
+            </li>
+
+        </ul>
+        <div id="grad_left"></div>
+        <div id="grad_right"></div>
+        <a href="#" id="next">+</a>
+        <a href="#" id="prev">-</a>
+    </div>
+<h1>@JoziJUG http://www.jozijug.co.za/</h1>
+
+
 
 </body>
 </html>
